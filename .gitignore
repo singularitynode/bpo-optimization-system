@@ -1,0 +1,75 @@
+# ========================================
+# ULTIMATE GITIGNORE - NO SECRETS ALLOWED
+# ========================================
+
+# SECRETS - NEVER COMMIT
+*.env
+.env*
+*.key
+*.pem
+*.crt
+*.csr
+*secret*
+*password*
+*token*
+*credential*
+*private*
+ECHO is off.
+# SLACK/WEBHOOKS
+*webhook*
+*slack*
+*discord*
+*telegram*
+ECHO is off.
+# API KEYS
+*api*key*
+*aws*
+*azure*
+*gcp*
+*openai*
+*anthropic*
+ECHO is off.
+# DATABASE
+*.db
+*.sqlite*
+*postgres*
+*mysql*
+*mongo*
+ECHO is off.
+# BACKUPS
+*.backup
+*.bak
+*backup*
+ECHO is off.
+# TEMP FILES
+*.tmp
+*.temp
+*~
+ECHO is off.
+# LOGS
+*.log
+logs/
+ECHO is off.
+# PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+ECHO is off.
+# NODE
+node_modules/
+.next/
+out/
+ECHO is off.
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+ECHO is off.
+# OS
+.DS_Store
+Thumbs.db
+ECHO is off.
+# DOCKER
+.dockerignore

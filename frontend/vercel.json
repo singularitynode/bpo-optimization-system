@@ -1,0 +1,9 @@
+{
+  "builds": [{ "src": "package.json", "use": "@vercel/next" }],
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ],
+  "env": {
+    "NEXT_PUBLIC_BACKEND_URL": "http://localhost:8000"
+  }
+}
